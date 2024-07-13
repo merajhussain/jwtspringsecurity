@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "1aef9cc5-0daf-415b-952c-93ac05819149",
+		"name": "jwtspringsecurity",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4173404"
+	},
+	"item": [
+		{
+			"name": "getJwtToken",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"email\":\"meraj\",\r\n    \"password\":\"meraj\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:2719/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2719",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testapi",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
